@@ -1,0 +1,105 @@
+/*
+* Soft Grid CSS Framework V1
+* Copyright 2016, Baran Somaklı
+* www.baransomakli.com
+* 21.05.2016
+*/
+
+/* Container */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.container-lg {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.colon {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+/* Mobile devices larger than 400px */
+@media (min-width: 400px) {
+.container, .container-lg {
+    width: 85%;
+    padding: 0;
+}
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+.container, .container-lg {
+    width: 85%;
+    padding: 0;
+}
+
+.colon {
+	margin-left:20px;
+}
+
+.colon:first-child {
+    margin-left: 0;
+}
+/*Colon*/
+.one.colon { width: calc(100%/12 * 1 - 20px); }
+.two.colon { width: calc(100%/12 * 2 - 20px); }
+.three.colon { width: calc(100%/12 * 3 - 20px); }
+.four.colon { width: calc(100%/12 * 4 - 20px); }
+.five.colon { width: calc(100%/12 * 5 - 20px); }
+.six.colon {  width: calc(100%/12 * 6 - 20px);  }
+.seven.colon { width: calc(100%/12 * 7 - 20px); }
+.eight.colon { width: calc(100%/12 * 8 - 20px); }
+.nine.colon { width: calc(100%/12 * 9 - 20px); }
+.ten.colon { width: calc(100%/12 * 10 - 20px); }
+.eleven.colon { width: calc(100%/12 * 11 - 20px); }
+.twelve.colon { width: 100%; margin-left: 0; }
+.one-third.colon { width: calc(100%/3 - 20px); }
+.two-thirds.colon { width: calc(100%/3 * 2 - 20px); }
+.one-half.colon { width: calc(100%/2 - 20px); }
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.full-width {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container:after, .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+
+@media (min-width: 400px) {}
+
+@media (min-width: 550px) {}
+
+@media (min-width: 750px) {}
+
+@media (min-width: 1000px) {}
+
+@media (min-width: 1200px) {}
